@@ -1,3 +1,3 @@
-# Nn Handwrittendigitrecognition Binary
+# Neural Network Handwritten Digit Recognition 
 
 Project description.
