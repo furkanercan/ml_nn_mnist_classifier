@@ -37,8 +37,8 @@ print(f"Flattened test images shape: {test_images_flattened.shape}")
 model = Sequential(
     [
         tf.keras.Input(shape=(784,)), #specify input here
-        Dense(25, activation = 'sigmoid', name = 'L1'),
-        Dense(15, activation = 'sigmoid', name = 'L2'),
+        Dense(25, activation = 'relu',    name = 'L1'),
+        Dense(15, activation = 'relu',    name = 'L2'),
         Dense(1,  activation = 'sigmoid', name = 'L3'),
     ], name = "coursera_model"
 )
